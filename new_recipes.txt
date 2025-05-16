@@ -1,0 +1,143 @@
+<!-- Recette du Rasengan -->
+<div class="recipe-item" data-category="cold special">
+    <div class="recipe-item-image">
+        <img src="img/993f6a0f28ba76a0741ea2f0d5652362.jpg" alt="Le Rasengan">
+    </div>
+    <div class="recipe-item-content">
+        <h3 class="recipe-item-title">Le Rasengan</h3>
+        <div class="recipe-item-tags">
+            <span class="recipe-tag">Tourbillonnant</span>
+            <span class="recipe-tag">Rafraîchissant</span>
+        </div>
+        <p class="recipe-item-description">
+            Notre création phare, inspirée par la célèbre technique du Rasengan. Ce café glacé aux notes d'agrumes et de vanille crée un véritable spectacle visuel avec ses couches de couleurs qui s'entremêlent en spirale.
+        </p>
+        <a href="menu.html#rasengan" class="recipe-item-link">
+            <span>Voir la recette</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!-- Recette de La Trueno D'Akina -->
+<div class="recipe-item" data-category="cold special">
+    <div class="recipe-item-image">
+        <img src="img/b924a11332a2075fc8a64bca909c96a3.jpg" alt="La Trueno D'Akina">
+    </div>
+    <div class="recipe-item-content">
+        <h3 class="recipe-item-title">La Trueno D'Akina</h3>
+        <div class="recipe-item-tags">
+            <span class="recipe-tag">Intense</span>
+            <span class="recipe-tag">Stratifié</span>
+        </div>
+        <p class="recipe-item-description">
+            Un café stratifié noir et blanc inspiré de la légendaire AE86. Cette création audacieuse offre une expérience de dégustation qui évolue à chaque gorgée, passant de notes intenses à des saveurs plus douces.
+        </p>
+        <a href="menu.html#trueno" class="recipe-item-link">
+            <span>Voir la recette</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!-- Recette du Zergling -->
+<div class="recipe-item" data-category="cold special">
+    <div class="recipe-item-image">
+        <img src="img/image.webp" alt="Le Zergling">
+    </div>
+    <div class="recipe-item-content">
+        <h3 class="recipe-item-title">Le Zergling</h3>
+        <div class="recipe-item-tags">
+            <span class="recipe-tag">Fruité</span>
+            <span class="recipe-tag">Explosif</span>
+        </div>
+        <p class="recipe-item-description">
+            Une boisson fruitée et explosive, inspirée par la célèbre unité de combat Zerg. Cette création vibrante combine des saveurs tropicales intenses avec une touche de piquant qui explose en bouche.
+        </p>
+        <a href="menu.html#zergling" class="recipe-item-link">
+            <span>Voir la recette</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!-- Recette du Titan Brew -->
+<div class="recipe-item" data-category="hot special">
+    <div class="recipe-item-image">
+        <img src="img/image (2).webp" alt="Le Titan Brew">
+    </div>
+    <div class="recipe-item-content">
+        <h3 class="recipe-item-title">Le Titan Brew</h3>
+        <div class="recipe-item-tags">
+            <span class="recipe-tag">Imposant</span>
+            <span class="recipe-tag">Puissant</span>
+        </div>
+        <p class="recipe-item-description">
+            Une boisson colossale aux notes profondes et complexes, inspirée par les titans mythiques. Ce café riche et corsé est amplifié par des touches de caramel et d'épices pour une expérience gustative monumentale.
+        </p>
+        <a href="menu.html#titan" class="recipe-item-link">
+            <span>Voir la recette</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!-- Recette de la Coca Algérienne -->
+<div class="recipe-item" data-category="bakery special">
+    <div class="recipe-item-image">
+        <img src="img/Coca-algerienne-Pizza-dAlgerie.jpg" alt="La Coca Algérienne">
+    </div>
+    <div class="recipe-item-content">
+        <h3 class="recipe-item-title">La Coca Algérienne</h3>
+        <div class="recipe-item-tags">
+            <span class="recipe-tag">Traditionnel</span>
+            <span class="recipe-tag">Savoureux</span>
+        </div>
+        <p class="recipe-item-description">
+            Une spécialité méditerranéenne incontournable, cette galette dorée garnie d'olives noires offre un parfait équilibre entre douceur et saveurs délicatement acidulées. Sa texture moelleuse à l'intérieur et croustillante à l'extérieur en fait un accompagnement idéal pour nos cafés.
+        </p>
+        <a href="menu.html#coca" class="recipe-item-link">
+            <span>Voir la recette</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!-- Recette de Naans au Fromage -->
+<div class="recipe-item" data-category="bakery special">
+    <div class="recipe-item-image">
+        <img src="img/158591_w1024h768c1cx2035cy876cxt0cyt0cxb4096cyb2048.jpg" alt="Naans au Fromage">
+    </div>
+    <div class="recipe-item-content">
+        <h3 class="recipe-item-title">Naans au Fromage</h3>
+        <div class="recipe-item-tags">
+            <span class="recipe-tag">Crémeux</span>
+            <span class="recipe-tag">Moelleux</span>
+        </div>
+        <p class="recipe-item-description">
+            Ces pains plats traditionnels, enrichis d'un cœur fondant de fromage, sont à la fois moelleux et savoureux. Leur texture aérienne et leur garniture crémeuse en fait le compagnon idéal pour accompagner nos cafés épicés ou nos plats d'inspiration indienne.
+        </p>
+        <a href="menu.html#naan" class="recipe-item-link">
+            <span>Voir la recette</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+        </a>
+    </div>
+</div>

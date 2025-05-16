@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#f8f9fc">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="K-fee">
+    <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+    <link rel="manifest" href="manifest.json">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">    <title>Recettes de Maman | McMoon</title>
+    <meta name="description" content="Découvrez notre collection des meilleures recettes familiales de ma mère, soigneusement rassemblées et préservées pour les générations futures.">
+</head>
+<body class="theme-coffee">
+    <header class="header">
+        <div class="container header-container">            <a href="index.html" class="logo">
+                <img src="img/44a1f8c2-e91a-4892-b5a9-95b56dc5d99b.png" alt="K-fee Logo" width="120" height="50">
+            </a>              <!-- Desktop Navigation -->
+            <nav class="desktop-nav">                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">ACCUEIL</a></li>
+                    <li><a href="recettes.html" class="nav-link active">RECETTES</a></li>
+                    <li><a href="index.html#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+          <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <nav>
+                <ul class="mobile-nav-list">
+                    <li><a href="index.html" class="mobile-nav-link">ACCUEIL</a></li>
+                    <li><a href="recettes.html" class="mobile-nav-link">RECETTES</a></li>
+                    <li><a href="index.html#contact" class="mobile-nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>    <main class="recipe-catalog">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Les Recettes de Maman</h1>
+                <p class="page-description">Découvrez notre collection de recettes familiales transmises de génération en génération. Des plats simples mais délicieux qui vous rappelleront des souvenirs d'enfance.</p>
+            </div>            <div class="recipe-categories">
+                <button class="recipe-cat-btn active" data-category="all">
+                    <span class="cat-icon">✓</span>
+                    Toutes les recettes
+                </button>
+                <button class="recipe-cat-btn" data-category="hot">
+                    <span class="cat-icon">🔥</span>
+                    Plats chauds
+                </button>
+                <button class="recipe-cat-btn" data-category="cold">
+                    <span class="cat-icon">🥗</span>
+                    Entrées froides
+                </button>
+                <button class="recipe-cat-btn" data-category="special">
+                    <span class="cat-icon">✨</span>
+                    Recettes spéciales
+                </button>                
+                <button class="recipe-cat-btn" data-category="bakery">
+                    <span class="cat-icon">🍞</span>
+                    Boulangerie
+                </button>
+                <button class="recipe-cat-btn" data-category="dessert">
+                    <span class="cat-icon">🍰</span>
+                    Desserts
+                </button>
+            </div>
+            <div class="recipe-grid">
+                <!-- Recette de poulet -->
+                <div class="recipe-item" data-category="hot special">
+                    <div class="recipe-item-image">
+                        <img src="img/poulet-cremeux-aux-champignons-riche-en-saveur.jpg" alt="Poulet crémeux aux champignons">
+                    </div>
+                    <div class="recipe-item-content">
+                        <h3 class="recipe-item-title">Poulet crémeux aux champignons</h3>
+                        <div class="recipe-item-tags">
+                            <span class="recipe-tag">Crémeux</span>
+                            <span class="recipe-tag">Savoureux</span>
+                        </div>
+                        <p class="recipe-item-description">
+                            Un délicieux plat de poulet avec une sauce crémeuse aux champignons. Cette recette savoureuse combine des blancs de poulet tendres avec des champignons, de la crème et des herbes aromatiques.
+                        </p>
+                        <a href="menu.html#poulet-champignons" class="recipe-item-link">
+                            <span>Voir la recette</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                  <!-- Recette de Chili con Carne -->
+                <div class="recipe-item" data-category="hot special">
+                    <div class="recipe-item-image">
+                        <img src="img/chili-con-carne.jpg" alt="Chili con Carne">
+                    </div>
+                    <div class="recipe-item-content">
+                        <h3 class="recipe-item-title">Chili con Carne</h3>
+                        <div class="recipe-item-tags">
+                            <span class="recipe-tag">Épicé</span>
+                            <span class="recipe-tag">Abordable</span>
+                        </div>
+                        <p class="recipe-item-description">
+                            Un plat réconfortant à base de bœuf haché, haricots rouges et épices, préparé avec des ingrédients que l'on peut facilement trouver chez Lidl. Parfait pour les soirées froides ou pour recevoir.
+                        </p>
+                        <a href="menu.html#chili-con-carne" class="recipe-item-link">
+                            <span>Voir la recette</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Recette de Poulet Tikka Masala -->                <div class="recipe-item" data-category="hot special">                    <div class="recipe-item-image">
+                        <img src="img/poulet-tikka-massala.jpg" alt="Poulet Tikka Masala">
+                    </div>
+                    <div class="recipe-item-content">
+                        <h3 class="recipe-item-title">Poulet Tikka Masala</h3>
+                        <div class="recipe-item-tags">
+                            <span class="recipe-tag">Épicé</span>
+                            <span class="recipe-tag">Indien</span>
+                        </div>
+                        <p class="recipe-item-description">
+                            Un plat emblématique de la cuisine indienne revisitée, alliant des morceaux de poulet marinés aux épices et cuits dans une sauce crémeuse aux tomates et aux aromates.
+                        </p>
+                        <a href="menu.html#poulet-tikka-masala" class="recipe-item-link">
+                            <span>Voir la recette</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>                            </svg>
+                        </a>
+                    </div>                </div>
+                  <!-- Recette de Riz à l'Indienne -->
+                <div class="recipe-item" data-category="hot special">
+                    <div class="recipe-item-image">
+                        <img src="img/riz-biryani-a-l-indienne.png" alt="Riz à l'Indienne">
+                    </div>
+                    <div class="recipe-item-content">
+                        <h3 class="recipe-item-title">Riz à l'Indienne</h3>
+                        <div class="recipe-item-tags">
+                            <span class="recipe-tag">Accompagnement</span>
+                            <span class="recipe-tag">Indien</span>
+                        </div>
+                        <p class="recipe-item-description">
+                            Un délicieux riz basmati parfumé aux épices indiennes, accompagnement idéal pour vos plats orientaux. Sa saveur subtile et aromatique sublimera vos currys, tandooris et autres spécialités.
+                        </p>
+                        <a href="menu.html#riz-indien" class="recipe-item-link">
+                            <span>Voir la recette</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>                        </a>
+                    </div>
+                </div>
+                
+                <!-- Recette de Cuisse de Poulet Tandoori Marinade -->
+                <div class="recipe-item" data-category="hot special">
+                    <div class="recipe-item-image">
+                        <img src="img/cuisses-de-poulet-tandoori.jpg" alt="Cuisse de Poulet Tandoori Marinade">
+                    </div>
+                    <div class="recipe-item-content">
+                        <h3 class="recipe-item-title">Cuisse de Poulet Tandoori Marinade</h3>
+                        <div class="recipe-item-tags">
+                            <span class="recipe-tag">Épicé</span>
+                            <span class="recipe-tag">Indien</span>
+                        </div>
+                        <p class="recipe-item-description">
+                            Des cuisses de poulet tendres et juteuses marinées dans un mélange de yaourt et d'épices tandoori pour un plat aux saveurs indiennes authentiques, à la fois épicé et parfumé.
+                        </p>
+                        <a href="menu.html#poulet-tandoori" class="recipe-item-link">
+                            <span>Voir la recette</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Recette de la Coca Algérienne -->
+                <div class="recipe-item" data-category="bakery special">
+                    <div class="recipe-item-image">
+                        <img src="img/Coca-algerienne-Pizza-dAlgerie.jpg" alt="La Coca Algérienne">
+                    </div>
+                    <div class="recipe-item-content">
+                        <h3 class="recipe-item-title">La Coca Algérienne</h3>
+                        <div class="recipe-item-tags">
+                            <span class="recipe-tag">Traditionnel</span>
+                            <span class="recipe-tag">Savoureux</span>
+                        </div>
+                        <p class="recipe-item-description">
+                            Une spécialité méditerranéenne incontournable, cette galette dorée garnie d'olives noires offre un parfait équilibre entre douceur et saveurs délicatement acidulées. Sa texture moelleuse à l'intérieur et croustillante à l'extérieur en fait un accompagnement idéal pour nos cafés.
+                        </p>
+                        <a href="menu.html#coca" class="recipe-item-link">
+                            <span>Voir la recette</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                  <!-- Recette de Naans au Fromage -->
+                <div class="recipe-item" data-category="bakery special">
+                    <div class="recipe-item-image">
+                        <img src="img/158591_w1024h768c1cx2035cy876cxt0cyt0cxb4096cyb2048.jpg" alt="Naans au Fromage">
+                    </div>
+                    <div class="recipe-item-content">
+                        <h3 class="recipe-item-title">Naans au Fromage</h3>
+                        <div class="recipe-item-tags">
+                            <span class="recipe-tag">Crémeux</span>
+                            <span class="recipe-tag">Moelleux</span>
+                        </div>
+                        <p class="recipe-item-description">
+                            Ces pains plats traditionnels, enrichis d'un cœur fondant de fromage, sont à la fois moelleux et savoureux. Leur texture aérienne et leur garniture crémeuse en fait le compagnon idéal pour accompagner nos cafés épicés ou nos plats d'inspiration indienne.
+                        </p>
+                        <a href="menu.html#naan" class="recipe-item-link">
+                            <span>Voir la recette</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </main><script src="main.js"></script>
+    <script src="theme.js"></script>
+    <script>
+        // Filtrage des recettes par catégorie
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryButtons = document.querySelectorAll('.recipe-cat-btn');
+            const recipeItems = document.querySelectorAll('.recipe-item');
+              // Fonction pour filtrer les recettes
+            function filterRecipes(category) {
+                // Animation plus fluide pour les boutons de catégorie
+                categoryButtons.forEach(btn => {
+                    if(btn.getAttribute('data-category') === category) {
+                        btn.classList.add('active');
+                        // Ajouter un check mark pour le bouton actif
+                        const icon = btn.querySelector('.cat-icon');
+                        if (category === 'all') {
+                            icon.innerHTML = '✓';
+                        } // On garde les autres icônes inchangées
+                    } else {
+                        btn.classList.remove('active');
+                        // Restaurer les icônes d'origine
+                        const icon = btn.querySelector('.cat-icon');                        const originalIcon = {
+                            'all': '✓',
+                            'hot': '🔥',
+                            'cold': '🥗',
+                            'special': '✨',
+                            'bakery': '🍞',
+                            'dessert': '🍰'
+                        }[btn.getAttribute('data-category')];
+                        if (originalIcon) {
+                            icon.innerHTML = originalIcon;
+                        }
+                    }
+                });
+                
+                // Animation pour les recettes
+                recipeItems.forEach(item => {
+                    if (category === 'all' || item.getAttribute('data-category').includes(category)) {
+                        item.style.opacity = '0';
+                        item.style.transform = 'translateY(20px) scale(0.95)';
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'translateY(0) scale(1)';
+                        }, 50);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'translateY(20px) scale(0.95)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    }
+                });
+                
+                // Mettre à jour l'URL sans recharger la page
+                const url = new URL(window.location);
+                if (category !== 'all') {
+                    url.searchParams.set('cat', category);
+                } else {
+                    url.searchParams.delete('cat');
+                }
+                window.history.pushState({}, '', url);
+            }            // Vérifier les paramètres d'URL pour le filtrage initial
+            const urlParams = new URLSearchParams(window.location.search);
+            const catParam = urlParams.get('cat');
+            
+            if (catParam && ['hot', 'cold', 'special', 'dessert', 'bakery'].includes(catParam)) {
+                filterRecipes(catParam);
+            }
+            
+            // Ajouter des écouteurs d'événements pour les boutons de catégorie
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const category = button.getAttribute('data-category');
+                    filterRecipes(category);
+                });
+            });
+            
+            // Mise en cache des images pour le mode hors ligne
+            if ('caches' in window) {
+                // Récupérer toutes les images de recettes
+                const recipeImages = document.querySelectorAll('.recipe-item-image img');
+                
+                // Ajouter des écouteurs de chargement pour chaque image
+                recipeImages.forEach(img => {
+                    img.addEventListener('load', () => {
+                        // Stocker l'image dans le cache
+                        caches.open('recipe-images-cache').then(cache => {
+                            cache.add(img.src);
+                        });
+                    });
+                    
+                    // Ajouter le loading lazy pour améliorer les performances
+                    img.loading = 'lazy';
+                    
+                    // Ajouter des dimensions pour éviter le layout shift
+                    img.setAttribute('width', '100%');                    img.setAttribute('height', 'auto');
+                });
+            }
+        });
+        
+        // Vérifier périodiquement les mises à jour du service worker
+        if ('serviceWorker' in navigator) {
+            // Vérifier les mises à jour du service worker toutes les 6 heures
+            setInterval(() => {
+                navigator.serviceWorker.ready.then(registration => {
+                    registration.update();
+                });
+            }, 6 * 60 * 60 * 1000);
+            
+            // Écouter les événements de changement du service worker
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (refreshing) return;
+                
+                // La page sera actualisée seulement une fois
+                refreshing = true;
+                window.location.reload();
+            });
+        }
+    </script>
+</body>
+</html>

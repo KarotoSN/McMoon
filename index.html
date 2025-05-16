@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez K-fee, votre source d'inspiration pour des recettes de café uniques et créatives. Apprenez à créer des boissons extraordinaires chez vous.">
+    <meta name="theme-color" content="#f8f9fc">    <meta property="og:title" content="K-fee | L'Art des Recettes de Café">
+    <meta property="og:description" content="Découvrez des recettes de café uniques et créatives. Apprenez à créer des boissons extraordinaires chez vous.">
+    <meta property="og:image" content="img/44a1f8c2-e91a-4892-b5a9-95b56dc5d99b.png">
+    <meta property="og:url" content="https://k-fee.fr">
+    <meta property="og:type" content="website">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="K-fee">
+    <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>K-fee | Recettes de Café Créatives</title>
+</head>
+<body class="theme-coffee">
+    <header class="header">
+        <div class="container header-container">            <a href="index.html" class="logo">
+                <img src="img/44a1f8c2-e91a-4892-b5a9-95b56dc5d99b.png" alt="K-fee Logo" width="120" height="50">
+            </a>
+              <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">ACCUEIL</a></li>
+                    <li><a href="recettes.html" class="nav-link">RECETTES</a></li>
+                    <li><a href="#a-propos" class="nav-link">À PROPOS</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <nav>
+                <ul class="mobile-nav-list">
+                    <li><a href="index.html" class="mobile-nav-link">ACCUEIL</a></li>
+                    <li><a href="recettes.html" class="mobile-nav-link">RECETTES</a></li>
+                    <li><a href="#a-propos" class="mobile-nav-link">À PROPOS</a></li>
+                    <li><a href="#contact" class="mobile-nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>    <main>
+        <section class="hero-minimal">
+            <div class="hero-content">                <div class="hero-logo">
+                    <img src="img/44a1f8c2-e91a-4892-b5a9-95b56dc5d99b.png" alt="K-fee Logo" width="180" height="75">
+                </div>
+                <h1>Recettes traditionnelles de McMoon</h1>
+                <p>Plongez dans un monde de délices culinaires avec nos recettes familiales authentiques</p>
+                <a href="recettes.html" class="btn-primary">Découvrir nos recettes</a>
+            </div>
+        </section>
+
+        <section class="featured-recipes">
+            <div class="container">                <h2 class="section-title-minimal">Nos créations phares</h2>
+                
+                <div class="recipe-grid minimal-grid">
+                    <!-- Recette de poulet crémeux aux champignons -->
+                    <div class="recipe-item" data-category="hot special">
+                        <div class="recipe-item-image">
+                            <img src="img/poulet-cremeux-aux-champignons-riche-en-saveur.jpg" alt="Poulet crémeux aux champignons">
+                        </div>
+                        <div class="recipe-item-content">
+                            <h3 class="recipe-item-title">Poulet crémeux aux champignons</h3>
+                            <div class="recipe-item-tags">
+                                <span class="recipe-tag">Crémeux</span>
+                                <span class="recipe-tag">Savoureux</span>
+                            </div>
+                            <p class="recipe-item-description">
+                                Un délicieux plat de poulet avec une sauce crémeuse aux champignons. Cette recette savoureuse combine des blancs de poulet tendres avec des champignons, de la crème et des herbes aromatiques.
+                            </p>
+                            <a href="menu.html#poulet-champignons" class="recipe-item-link">
+                                <span>Voir la recette</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Recette de Chili con Carne -->
+                    <div class="recipe-item" data-category="hot special">
+                        <div class="recipe-item-image">
+                            <img src="img/chili-con-carne.jpg" alt="Chili con Carne">
+                        </div>
+                        <div class="recipe-item-content">
+                            <h3 class="recipe-item-title">Chili con Carne</h3>
+                            <div class="recipe-item-tags">
+                                <span class="recipe-tag">Épicé</span>
+                                <span class="recipe-tag">Abordable</span>
+                            </div>
+                            <p class="recipe-item-description">
+                                Un plat réconfortant à base de bœuf haché, haricots rouges et épices, préparé avec des ingrédients que l'on peut facilement trouver chez Lidl. Parfait pour les soirées froides ou pour recevoir.
+                            </p>
+                            <a href="menu.html#chili-con-carne" class="recipe-item-link">
+                                <span>Voir la recette</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Recette de Poulet Tikka Masala -->                    <div class="recipe-item" data-category="hot special">
+                        <div class="recipe-item-image">
+                            <img src="img/poulet-tikka-massala.jpg" alt="Poulet Tikka Masala">
+                        </div>
+                        <div class="recipe-item-content">
+                            <h3 class="recipe-item-title">Poulet Tikka Masala</h3>
+                            <div class="recipe-item-tags">
+                                <span class="recipe-tag">Épicé</span>
+                                <span class="recipe-tag">Indien</span>
+                            </div>
+                            <p class="recipe-item-description">
+                                Un plat emblématique de la cuisine indienne revisitée, alliant des morceaux de poulet marinés aux épices et cuits dans une sauce crémeuse aux tomates et aux aromates.
+                            </p>
+                            <a href="menu.html#poulet-tikka-masala" class="recipe-item-link">
+                                <span>Voir la recette</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>                    </div>
+                </div>
+                
+                <div class="view-all-link">
+                    <a href="recettes.html">Voir toutes les recettes</a>
+                </div>
+            </div>
+        </section>            <script src="main.js"></script>
+    <script src="theme.js"></script>
+</body>
+</html>
